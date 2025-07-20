@@ -63,7 +63,7 @@ async def on_ready():
 
 @client.event
 async def on_command_completion(context: commands.Context) -> None:
-    if context.author.id == 767979794411028491:
+    if context.author.id == 1142053791781355561:
         return
 
     full_command_name = context.command.qualified_name
